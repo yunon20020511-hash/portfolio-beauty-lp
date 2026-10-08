@@ -68,12 +68,12 @@
 
 | 項目 | モバイル | PC |
 | --- | --- | --- |
-| Performance | 94 | 100 |
+| Performance | 97 | 100 |
 | Accessibility | 100 | 100 |
 | Best Practices | 100 | 100 |
 | SEO | 100 | 100 |
 
-※ Lighthouse 12（Chrome）によるローカル環境での計測値です。
+※ 公開 URL を Lighthouse 12（Chrome）で計測した値です（2026年10月8日）。
 
 ### HTML の妥当性
 - W3C Markup Validation Service（Nu Html Checker）で、エラー・警告ともに 0 件です。

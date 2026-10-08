@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorane Skin Clinic｜肌と、ゆっくり向き合う美容皮膚科（自主制作サンプル）</title>
+  <meta name="description" content="架空の美容皮膚科「ソラネ スキンクリニック」のランディングページ。シミ・毛穴・ニキビ跡などのお悩みに、医師がカウンセリングから担当します。※自主制作のコーディングサンプルです。">
+  <meta name="theme-color" content="#fbf8f5">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sorane Skin Clinic（自主制作サンプル）">
+  <meta property="og:description" content="架空の美容皮膚科を題材にした LP のコーディングサンプルです。">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/noto-sans-jp.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a class="logo" href="#top" aria-label="Sorane Skin Clinic トップへ">
+        <span class="logo__main">Sorane</span>
+        <span class="logo__sub">SKIN CLINIC</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+        <span class="menu-btn__bar"></span>
+      </button>
+
+      <nav class="nav" id="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#worries">お悩み</a></li>
+          <li><a class="nav__link" href="#reasons">選ばれる理由</a></li>
+          <li><a class="nav__link" href="#menu">メニュー・料金</a></li>
+          <li><a class="nav__link" href="#cases">症例</a></li>
+          <li><a class="nav__link" href="#flow">施術の流れ</a></li>
+          <li><a class="nav__link" href="#doctor">医師紹介</a></li>
+          <li><a class="nav__link" href="#faq">よくある質問</a></li>
+          <li><a class="nav__link" href="#access">アクセス</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="#reserve">カウンセリング予約</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Main visual ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="hero__en">Your skin, your pace.</p>
+          <h1 class="hero__title" id="hero-title">肌と、<br>ゆっくり向き合う<br>時間を。</h1>
+          <p class="hero__lead">一人ひとりの肌の状態やご希望をうかがい、<br class="pc-only">医師が施術内容をご提案します。<br class="pc-only">初めての方も、まずはご相談だけでも大丈夫です。</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="#reserve">無料カウンセリングを予約</a>
+            <a class="btn btn--ghost btn--lg" href="#menu">メニュー・料金を見る</a>
+          </div>
+          <ul class="hero__tags">
+            <li>完全予約制</li>
+            <li>個室カウンセリング</li>
+            <li>土日も診療</li>
+          </ul>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <svg class="hero__svg" viewBox="0 0 480 520" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f3dcd3"/>
+                <stop offset="1" stop-color="#e8c3b9"/>
+              </linearGradient>
+              <linearGradient id="hg2" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#efe6dc"/>
+                <stop offset="1" stop-color="#fbf8f5"/>
+              </linearGradient>
+            </defs>
+            <path d="M240 20c112 0 210 78 220 196 10 126-74 284-220 284S10 380 20 236C30 100 128 20 240 20z" fill="url(#hg1)"/>
+            <circle cx="300" cy="200" r="130" fill="url(#hg2)" opacity=".85"/>
+            <circle cx="150" cy="360" r="70" fill="#fbf8f5" opacity=".55"/>
+            <g fill="none" stroke="#b9837b" stroke-width="1.2" opacity=".6">
+              <circle cx="300" cy="200" r="150"/>
+              <circle cx="300" cy="200" r="170"/>
+            </g>
+            <g fill="none" stroke="#9b6a63" stroke-width="1.6" stroke-linecap="round">
+              <path d="M190 420C230 340 270 270 350 210"/>
+              <path d="M232 340c-30-6-50-26-56-52 28 2 50 22 56 52z"/>
+              <path d="M262 296c6-30 26-50 52-58-2 28-22 50-52 58z"/>
+              <path d="M300 256c-26-10-42-32-44-58 26 6 42 30 44 58z"/>
+              <path d="M214 378c6-26 24-44 48-50-2 24-20 44-48 50z"/>
+            </g>
+            <circle cx="360" cy="380" r="5" fill="#c99a90"/>
+            <circle cx="384" cy="356" r="3" fill="#c99a90"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Worries ===== -->
+    <section class="section worries" id="worries" aria-labelledby="worries-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Worries</p>
+          <h2 class="section-head__title" id="worries-title">こんなお悩みはありませんか</h2>
+        </div>
+        <ul class="worries__list">
+          <li class="worries__item js-fade">シミ・そばかすが<br class="pc-only">目立ってきた</li>
+          <li class="worries__item js-fade">毛穴の開きや<br class="pc-only">黒ずみが気になる</li>
+          <li class="worries__item js-fade">ニキビ跡の凹凸や<br class="pc-only">赤みが残っている</li>
+          <li class="worries__item js-fade">乾燥やくすみで<br class="pc-only">化粧のりが悪い</li>
+          <li class="worries__item js-fade">肌のハリが<br class="pc-only">以前より気になる</li>
+          <li class="worries__item js-fade">美容医療は初めてで<br class="pc-only">何を選べばよいか不安</li>
+        </ul>
+        <p class="worries__msg js-fade">そのお悩み、まずは医師に<br class="sp-only">ご相談ください。</p>
+      </div>
+    </section>
+
+    <!-- ===== Reasons ===== -->
+    <section class="section reasons" id="reasons" aria-labelledby="reasons-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Reasons</p>
+          <h2 class="section-head__title" id="reasons-title">当院が大切にしていること</h2>
+        </div>
+        <ol class="reasons__list">
+          <li class="reason js-fade">
+            <div class="reason__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="16" r="8"/><path d="M8 42c2-9 8-14 16-14s14 5 16 14"/></svg>
+            </div>
+            <p class="reason__num">01</p>
+            <h3 class="reason__title">医師が最初から<br>カウンセリング</h3>
+            <p class="reason__text">カウンセリングから施術後の診察まで医師が担当します。肌の状態を確認したうえで、施術を行わないという選択肢も含めてご説明します。</p>
+          </li>
+          <li class="reason js-fade">
+            <div class="reason__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><rect x="9" y="6" width="30" height="36" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/></svg>
+            </div>
+            <p class="reason__num">02</p>
+            <h3 class="reason__title">料金は事前に<br>すべてご提示</h3>
+            <p class="reason__text">施術料金は税込で明示し、お見積もりにご納得いただいてから施術を行います。ご同意なく費用が追加されることはありません。</p>
+          </li>
+          <li class="reason js-fade">
+            <div class="reason__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17"/><path d="M24 13v11l7 5"/></svg>
+            </div>
+            <p class="reason__num">03</p>
+            <h3 class="reason__title">駅から徒歩3分<br>土日も診療</h3>
+            <p class="reason__text">完全予約制・個室でのご案内のため、待ち時間を抑えて落ち着いて過ごせます。お仕事帰りや週末にも通いやすい診療時間です。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Menu & Price ===== -->
+    <section class="section menu" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Menu &amp; Price</p>
+          <h2 class="section-head__title" id="menu-title">施術メニューと料金</h2>
+        </div>
+        <div class="price js-fade">
+          <table class="price__table">
+            <caption class="visually-hidden">施術メニューと料金一覧（税込）</caption>
+            <thead>
+              <tr>
+                <th scope="col">施術名</th>
+                <th scope="col">主なお悩み</th>
+                <th scope="col">初回</th>
+                <th scope="col">1回</th>
+                <th scope="col">5回コース</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">フォトフェイシャル</th>
+                <td data-label="主なお悩み">シミ・くすみ・赤み</td>
+                <td data-label="初回">¥9,900</td>
+                <td data-label="1回">¥16,500</td>
+                <td data-label="5回コース">¥74,800</td>
+              </tr>
+              <tr>
+                <th scope="row">ケミカルピーリング</th>
+                <td data-label="主なお悩み">ニキビ・毛穴・ざらつき</td>
+                <td data-label="初回">¥4,950</td>
+                <td data-label="1回">¥8,800</td>
+                <td data-label="5回コース">¥39,600</td>
+              </tr>
+              <tr>
+                <th scope="row">レーザートーニング</th>
+                <td data-label="主なお悩み">肝斑・くすみ</td>
+                <td data-label="初回">¥11,000</td>
+                <td data-label="1回">¥19,800</td>
+                <td data-label="5回コース">¥88,000</td>
+              </tr>
+              <tr>
+                <th scope="row">マイクロニードル治療</th>
+                <td data-label="主なお悩み">ニキビ跡・毛穴</td>
+                <td data-label="初回">¥19,800</td>
+                <td data-label="1回">¥27,500</td>
+                <td data-label="5回コース">¥121,000</td>
+              </tr>
+              <tr>
+                <th scope="row">医療脱毛（顔全体）</th>
+                <td data-label="主なお悩み">ムダ毛・自己処理の負担</td>
+                <td data-label="初回">¥7,700</td>
+                <td data-label="1回">¥12,100</td>
+                <td data-label="5回コース">¥49,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <ul class="notes js-fade">
+          <li>表示価格はすべて税込です。いずれも自由診療（公的医療保険の適用外）となります。</li>
+          <li>初診料・再診料は無料です。初回価格は各施術とも初めての方1回限りです。</li>
+          <li>主なリスク・副作用：赤み、ほてり、乾燥、一時的な色素沈着、内出血などが生じる場合があります。詳しくはカウンセリング時にご説明します。</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Cases ===== -->
+    <section class="section cases" id="cases" aria-labelledby="cases-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Cases</p>
+          <h2 class="section-head__title" id="cases-title">症例紹介</h2>
+        </div>
+        <div class="cases__list">
+          <article class="case js-fade">
+            <div class="case__photos">
+              <figure class="case__photo">
+                <div class="dummy-img" role="img" aria-label="施術前の症例写真（ダミー）"><span>Before</span></div>
+                <figcaption>施術前</figcaption>
+              </figure>
+              <figure class="case__photo">
+                <div class="dummy-img dummy-img--after" role="img" aria-label="施術後の症例写真（ダミー）"><span>After</span></div>
+                <figcaption>5回施術後</figcaption>
+              </figure>
+            </div>
+            <h3 class="case__title">フォトフェイシャル</h3>
+            <dl class="case__detail">
+              <div><dt>施術内容</dt><dd>光治療を顔全体に照射</dd></div>
+              <div><dt>回数・期間</dt><dd>5回（約1か月ごと）</dd></div>
+              <div><dt>費用</dt><dd>¥74,800（5回コース・税込）</dd></div>
+              <div><dt>リスク</dt><dd>赤み、ほてり、一時的にシミが濃く見えることがあります</dd></div>
+            </dl>
+          </article>
+          <article class="case js-fade">
+            <div class="case__photos">
+              <figure class="case__photo">
+                <div class="dummy-img" role="img" aria-label="施術前の症例写真（ダミー）"><span>Before</span></div>
+                <figcaption>施術前</figcaption>
+              </figure>
+              <figure class="case__photo">
+                <div class="dummy-img dummy-img--after" role="img" aria-label="施術後の症例写真（ダミー）"><span>After</span></div>
+                <figcaption>5回施術後</figcaption>
+              </figure>
+            </div>
+            <h3 class="case__title">ケミカルピーリング</h3>
+            <dl class="case__detail">
+              <div><dt>施術内容</dt><dd>薬剤を塗布し古い角質を除去</dd></div>
+              <div><dt>回数・期間</dt><dd>5回（2〜4週間ごと）</dd></div>
+              <div><dt>費用</dt><dd>¥39,600（5回コース・税込）</dd></div>
+              <div><dt>リスク</dt><dd>赤み、乾燥、ヒリヒリ感が出ることがあります</dd></div>
+            </dl>
+          </article>
+          <article class="case js-fade">
+            <div class="case__photos">
+              <figure class="case__photo">
+                <div class="dummy-img" role="img" aria-label="施術前の症例写真（ダミー）"><span>Before</span></div>
+                <figcaption>施術前</figcaption>
+              </figure>
+              <figure class="case__photo">
+                <div class="dummy-img dummy-img--after" role="img" aria-label="施術後の症例写真（ダミー）"><span>After</span></div>
+                <figcaption>3回施術後</figcaption>
+              </figure>
+            </div>
+            <h3 class="case__title">マイクロニードル治療</h3>
+            <dl class="case__detail">
+              <div><dt>施術内容</dt><dd>極細の針で肌に微細な穴をあける治療</dd></div>
+              <div><dt>回数・期間</dt><dd>3回（約1か月ごと）</dd></div>
+              <div><dt>費用</dt><dd>¥75,200（初回＋1回×2・税込）</dd></div>
+              <div><dt>リスク</dt><dd>赤み、腫れ、点状の出血、内出血が出ることがあります</dd></div>
+            </dl>
+          </article>
+        </div>
+        <p class="cases__note js-fade">※症例写真はサンプルのためダミー表示です。効果には個人差があります。</p>
+      </div>
+    </section>
+
+    <!-- ===== Flow ===== -->
+    <section class="section flow" id="flow" aria-labelledby="flow-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Flow</p>
+          <h2 class="section-head__title" id="flow-title">施術の流れ</h2>
+        </div>
+        <ol class="flow__list">
+          <li class="step js-fade">
+            <p class="step__num"><span>Step</span>01</p>
+            <h3 class="step__title">ご予約</h3>
+            <p class="step__text">Web またはお電話でご予約ください。ご相談のみのご予約も承ります。</p>
+          </li>
+          <li class="step js-fade">
+            <p class="step__num"><span>Step</span>02</p>
+            <h3 class="step__title">問診・カウンセリング</h3>
+            <p class="step__text">問診票をもとに、お悩みやご希望、肌の状態を医師がうかがいます。</p>
+          </li>
+          <li class="step js-fade">
+            <p class="step__num"><span>Step</span>03</p>
+            <h3 class="step__title">お見積もり・ご同意</h3>
+            <p class="step__text">施術内容・費用・リスクをご説明します。その場で決める必要はありません。</p>
+          </li>
+          <li class="step js-fade">
+            <p class="step__num"><span>Step</span>04</p>
+            <h3 class="step__title">施術</h3>
+            <p class="step__text">個室で施術を行います。痛みや不安があれば遠慮なくお伝えください。</p>
+          </li>
+          <li class="step js-fade">
+            <p class="step__num"><span>Step</span>05</p>
+            <h3 class="step__title">アフターケア</h3>
+            <p class="step__text">ご自宅でのケア方法をご案内します。気になる症状があればご連絡ください。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Doctor ===== -->
+    <section class="section doctor" id="doctor" aria-labelledby="doctor-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Doctor</p>
+          <h2 class="section-head__title" id="doctor-title">医師紹介</h2>
+        </div>
+        <div class="doctor__body js-fade">
+          <figure class="doctor__photo">
+            <img src="img/doctor.svg" width="400" height="480" alt="院長 白石 遥 の写真（ダミーイラスト）" loading="lazy" decoding="async">
+          </figure>
+          <div class="doctor__text">
+            <p class="doctor__role">院長</p>
+            <p class="doctor__name">白石 遥<span>Haruka Shiraishi</span></p>
+            <p class="doctor__message">「肌のお悩みは、毎日の気分にも影響するものです。施術を急いですすめることはせず、肌の状態と生活のペースに合わせて、続けやすい方法を一緒に考えます。小さな疑問でも、どうぞお気軽にお話しください。」</p>
+            <dl class="doctor__career">
+              <dt>経歴</dt>
+              <dd>
+                <ul>
+                  <li>医学部卒業後、大学病院 皮膚科に勤務</li>
+                  <li>一般皮膚科クリニック 勤務</li>
+                  <li>Sorane Skin Clinic 開院</li>
+                </ul>
+              </dd>
+            </dl>
+            <p class="doctor__note">※架空の人物です。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <div class="section-head js-fade">
+          <p class="section-head__en">FAQ</p>
+          <h2 class="section-head__title" id="faq-title">よくある質問</h2>
+        </div>
+        <div class="faq__list js-fade">
+          <div class="accordion">
+            <h3 class="accordion__heading">
+              <button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-a1" id="faq-q1">
+                <span class="accordion__q" aria-hidden="true">Q</span>カウンセリングだけでも受けられますか？
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-a1" role="region" aria-labelledby="faq-q1">
+              <div class="accordion__inner">
+                <p>はい、可能です。カウンセリングは無料で、当日に施術を受ける必要はありません。ご検討の時間を十分におとりください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <h3 class="accordion__heading">
+              <button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+                <span class="accordion__q" aria-hidden="true">Q</span>施術に痛みはありますか？
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-a2" role="region" aria-labelledby="faq-q2">
+              <div class="accordion__inner">
+                <p>施術によって、輪ゴムで弾かれるような痛みやチクチクとした刺激を感じることがあります。感じ方には個人差があるため、必要に応じて麻酔クリームの使用や出力の調整を行います。</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <h3 class="accordion__heading">
+              <button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+                <span class="accordion__q" aria-hidden="true">Q</span>施術後すぐにメイクはできますか？
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-a3" role="region" aria-labelledby="faq-q3">
+              <div class="accordion__inner">
+                <p>フォトフェイシャルやケミカルピーリングは、多くの場合当日からメイクが可能です。マイクロニードル治療は翌日以降をおすすめしています。施術ごとに医師からご案内します。</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <h3 class="accordion__heading">
+              <button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+                <span class="accordion__q" aria-hidden="true">Q</span>支払い方法を教えてください。
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-a4" role="region" aria-labelledby="faq-q4">
+              <div class="accordion__inner">
+                <p>現金、各種クレジットカード、電子マネー、QR コード決済がご利用いただけます。コースのお支払いは分割払いにも対応しています。</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <h3 class="accordion__heading">
+              <button class="accordion__btn" type="button" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+                <span class="accordion__q" aria-hidden="true">Q</span>予約の変更やキャンセルはできますか？
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-a5" role="region" aria-labelledby="faq-q5">
+              <div class="accordion__inner">
+                <p>ご予約日の前日までにご連絡いただければ、変更・キャンセル料はかかりません。Web 予約の場合はマイページからも手続きいただけます。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Access ===== -->
+    <section class="section access" id="access" aria-labelledby="access-title">
+      <div class="container">
+        <div class="section-head js-fade">
+          <p class="section-head__en">Access</p>
+          <h2 class="section-head__title" id="access-title">アクセス・診療時間</h2>
+        </div>
+        <div class="access__body">
+          <div class="access__map js-fade">
+            <img src="img/map.svg" width="640" height="440" alt="クリニック周辺の簡易地図（ダミー）。みなと駅東口から大通りを北へ徒歩3分、ソラネビル3階。" loading="lazy" decoding="async">
+          </div>
+          <div class="access__info js-fade">
+            <dl class="info">
+              <div class="info__row"><dt>所在地</dt><dd>〒000-0000<br>東京都架空区みなと町1-2-3 ソラネビル3F</dd></div>
+              <div class="info__row"><dt>最寄り駅</dt><dd>みなと駅 東口から徒歩3分</dd></div>
+              <div class="info__row"><dt>電話番号</dt><dd>00-0000-0000（ダミー）</dd></div>
+            </dl>
+            <table class="hours">
+              <caption class="visually-hidden">診療時間</caption>
+              <thead>
+                <tr>
+                  <th scope="col">診療時間</th>
+                  <th scope="col">月</th><th scope="col">火</th><th scope="col">水</th>
+                  <th scope="col">木</th><th scope="col">金</th><th scope="col">土</th><th scope="col">日</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">10:00〜19:00</th>
+                  <td>○</td><td>○</td><td><span aria-hidden="true">−</span><span class="visually-hidden">休診</span></td><td>○</td><td>○</td><td>○</td><td>○</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="hours__note">休診日：水曜・祝日／土日は 18:00 まで</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reserve CTA ===== -->
+    <section class="cta" id="reserve" aria-labelledby="cta-title">
+      <div class="container">
+        <p class="cta__en js-fade">Reservation</p>
+        <h2 class="cta__title js-fade" id="cta-title">まずは無料カウンセリングから</h2>
+        <p class="cta__text js-fade">ご相談だけのご来院も歓迎しています。<br class="pc-only">ご予約は Web から24時間受け付けています。</p>
+        <div class="cta__actions js-fade">
+          <a class="btn btn--white btn--lg" href="#reserve">Web で予約する（ダミー）</a>
+          <p class="cta__tel">お電話でのご予約<span>00-0000-0000</span><small>受付 10:00〜19:00（水曜・祝日を除く）</small></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <a class="logo logo--footer" href="#top" aria-label="Sorane Skin Clinic トップへ戻る">
+        <span class="logo__main">Sorane</span>
+        <span class="logo__sub">SKIN CLINIC</span>
+      </a>
+      <p class="footer__disclaimer">※本サイトは架空のクリニックを題材にした自主制作サンプルです。</p>
+      <p class="footer__copy"><small>&copy; 2026 Sorane Skin Clinic (fictional) — Coding sample by Tanaka</small></p>
+    </div>
+  </footer>
+
+  <!-- ===== Fixed CTA (SP) ===== -->
+  <div class="fixed-cta">
+    <a class="btn btn--primary fixed-cta__btn" href="#reserve">無料カウンセリングを予約</a>
+  </div>
+</body>
+</html>

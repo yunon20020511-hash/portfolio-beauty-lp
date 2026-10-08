@@ -1,0 +1,41 @@
+/* tools/build_fonts.py で生成。直接編集しない */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/noto-sans-jp.woff2) format('woff2');
+  unicode-range: U+21-7e, U+a5, U+a9, U+d7, U+2014, U+203b, U+2212, U+25cb, U+3001-3002, U+300c-300d, U+3012, U+301c, U+3042, U+3044, U+3046, U+3048, U+304a-304d, U+304f-3051, U+3053-305b, U+305d-3061, U+3063-3064, U+3066-306b, U+306e-3070, U+3072, U+3078-3079, U+307b, U+307e-307f, U+3081-3082, U+3084, U+3086, U+3088-308c, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6-30a7, U+30a9, U+30ab, U+30ad, U+30af-30b1, U+30b3-30b9, U+30bb, U+30bd, U+30bf-30c1, U+30c3, U+30c8-30c9, U+30cb, U+30cd, U+30cf, U+30d2-30d5, U+30d7, U+30da, U+30de-30e1, U+30e3, U+30e5, U+30e9-30ed, U+30f3, U+30fb-30fc, U+4e00, U+4e08, U+4e0d, U+4e3b, U+4e7e, U+4e88, U+4e8b, U+4eac, U+4eba, U+4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f11, U+4f1d, U+4f53, U+4f55, U+4f5c, U+4f7f, U+4f8b, U+4fa1, U+4fdd, U+500b, U+5149, U+5168, U+516c, U+5185, U+518d, U+5199, U+51e6, U+51f8-51fa, U+5206-5207, U+521d, U+5229, U+5236, U+523a, U+524d, U+5264, U+526f, U+5272, U+529b, U+52a0, U+52b9, U+52d9, U+52e4, U+5316, U+533a-533b, U+5341, U+5352, U+53bb, U+53d7, U+53e3-53e4, U+53ef, U+53f7, U+5404, U+5408, U+540c-540d, U+5411, U+542b, U+554f, U+56de, U+571f, U+5728, U+5730, U+5834, U+5857, U+5909, U+5916, U+591a, U+5927, U+592b, U+5b50, U+5b66, U+5b85, U+5b89, U+5b8c, U+5ba4, U+5bb9, U+5bc4, U+5bdf, U+5bfe, U+5c04, U+5c0f, U+5dee, U+5df1, U+5e03, U+5e0c, U+5e2b, U+5e30, U+5f3e, U+5f53, U+5f71, U+5f85, U+5f8c, U+5f92, U+5f97, U+5fae, U+5fc5, U+5fdc, U+6025, U+60a9-60aa, U+610f, U+611f, U+614b, U+616e, U+6240, U+624b, U+6255, U+627f, U+6291, U+629e, U+62c5, U+63d0, U+652f, U+6559, U+6570, U+6574, U+6587, U+6591, U+6599, U+65b9, U+65bd, U+65e5, U+660e, U+6642, U+66dc, U+66f4, U+6700, U+6708, U+671b, U+671f, U+6728, U+672b-672c, U+6750, U+6765, U+6771, U+679c, U+67b6, U+683c, U+6848, U+691c, U+696d, U+6975, U+6b53, U+6b69, U+6b74, U+6b8b, U+6bce, U+6bdb, U+6c17, U+6c34, U+6c7a, U+6c88, U+6cbb, U+6cd5, U+6d3b, U+6d41, U+6e08, U+6fc0, U+6fc3, U+706b, U+70b9, U+7121, U+7167, U+71e5, U+7269, U+72b6, U+73fe, U+7406, U+751f, U+7528, U+7531, U+753a, U+756a, U+7591, U+75c5, U+75c7, U+75db, U+7642, U+767d, U+7684, U+76ae, U+76ee, U+76f8, U+771f, U+7740, U+77f3, U+78ba, U+793a, U+795d, U+7968, U+79d1, U+7a0e, U+7a2e, U+7a4d, U+7a74, U+7a7a, U+7acb, U+7ca7, U+7d04, U+7d0d, U+7d20, U+7d30, U+7d39, U+7d4c, U+7d61, U+7d9a, U+7dd2, U+7f8e, U+7fcc, U+8003, U+808c, U+809d, U+80a2, U+80fd, U+8131, U+816b, U+819a, U+81ea, U+822c, U+8272, U+843d, U+85ac, U+8840, U+884c, U+8853, U+8868, U+8981, U+898b, U+89a7, U+89d2, U+8a0e, U+8a3a, U+8a71, U+8a73, U+8a8d, U+8aac, U+8abf, U+8ac7, U+8ca0, U+8cbb, U+8cea, U+8d64, U+8de1, U+8efd, U+8f2a, U+8fbc, U+8fce, U+8ffd, U+901a, U+9023, U+9031, U+904e, U+9060, U+9065, U+9069, U+9078, U+90e8, U+90fd, U+9154, U+91d1, U+91dd, U+9577, U+958b, U+9593, U+964d, U+9650, U+9662, U+9664, U+967a, U+96fb, U+97ff, U+984c, U+9854, U+99c5, U+9ebb, U+9ed2, U+ff08-ff09, U+ff0b, U+ff0f, U+ff1a, U+ff1f;
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/noto-sans-jp.woff2) format('woff2');
+  unicode-range: U+21-7e, U+a5, U+a9, U+d7, U+2014, U+203b, U+2212, U+25cb, U+3001-3002, U+300c-300d, U+3012, U+301c, U+3042, U+3044, U+3046, U+3048, U+304a-304d, U+304f-3051, U+3053-305b, U+305d-3061, U+3063-3064, U+3066-306b, U+306e-3070, U+3072, U+3078-3079, U+307b, U+307e-307f, U+3081-3082, U+3084, U+3086, U+3088-308c, U+308f, U+3092-3093, U+30a2, U+30a4, U+30a6-30a7, U+30a9, U+30ab, U+30ad, U+30af-30b1, U+30b3-30b9, U+30bb, U+30bd, U+30bf-30c1, U+30c3, U+30c8-30c9, U+30cb, U+30cd, U+30cf, U+30d2-30d5, U+30d7, U+30da, U+30de-30e1, U+30e3, U+30e5, U+30e9-30ed, U+30f3, U+30fb-30fc, U+4e00, U+4e08, U+4e0d, U+4e3b, U+4e7e, U+4e88, U+4e8b, U+4eac, U+4eba, U+4ecb, U+4ed5, U+4ed8, U+4ee5, U+4f11, U+4f1d, U+4f53, U+4f55, U+4f5c, U+4f7f, U+4f8b, U+4fa1, U+4fdd, U+500b, U+5149, U+5168, U+516c, U+5185, U+518d, U+5199, U+51e6, U+51f8-51fa, U+5206-5207, U+521d, U+5229, U+5236, U+523a, U+524d, U+5264, U+526f, U+5272, U+529b, U+52a0, U+52b9, U+52d9, U+52e4, U+5316, U+533a-533b, U+5341, U+5352, U+53bb, U+53d7, U+53e3-53e4, U+53ef, U+53f7, U+5404, U+5408, U+540c-540d, U+5411, U+542b, U+554f, U+56de, U+571f, U+5728, U+5730, U+5834, U+5857, U+5909, U+5916, U+591a, U+5927, U+592b, U+5b50, U+5b66, U+5b85, U+5b89, U+5b8c, U+5ba4, U+5bb9, U+5bc4, U+5bdf, U+5bfe, U+5c04, U+5c0f, U+5dee, U+5df1, U+5e03, U+5e0c, U+5e2b, U+5e30, U+5f3e, U+5f53, U+5f71, U+5f85, U+5f8c, U+5f92, U+5f97, U+5fae, U+5fc5, U+5fdc, U+6025, U+60a9-60aa, U+610f, U+611f, U+614b, U+616e, U+6240, U+624b, U+6255, U+627f, U+6291, U+629e, U+62c5, U+63d0, U+652f, U+6559, U+6570, U+6574, U+6587, U+6591, U+6599, U+65b9, U+65bd, U+65e5, U+660e, U+6642, U+66dc, U+66f4, U+6700, U+6708, U+671b, U+671f, U+6728, U+672b-672c, U+6750, U+6765, U+6771, U+679c, U+67b6, U+683c, U+6848, U+691c, U+696d, U+6975, U+6b53, U+6b69, U+6b74, U+6b8b, U+6bce, U+6bdb, U+6c17, U+6c34, U+6c7a, U+6c88, U+6cbb, U+6cd5, U+6d3b, U+6d41, U+6e08, U+6fc0, U+6fc3, U+706b, U+70b9, U+7121, U+7167, U+71e5, U+7269, U+72b6, U+73fe, U+7406, U+751f, U+7528, U+7531, U+753a, U+756a, U+7591, U+75c5, U+75c7, U+75db, U+7642, U+767d, U+7684, U+76ae, U+76ee, U+76f8, U+771f, U+7740, U+77f3, U+78ba, U+793a, U+795d, U+7968, U+79d1, U+7a0e, U+7a2e, U+7a4d, U+7a74, U+7a7a, U+7acb, U+7ca7, U+7d04, U+7d0d, U+7d20, U+7d30, U+7d39, U+7d4c, U+7d61, U+7d9a, U+7dd2, U+7f8e, U+7fcc, U+8003, U+808c, U+809d, U+80a2, U+80fd, U+8131, U+816b, U+819a, U+81ea, U+822c, U+8272, U+843d, U+85ac, U+8840, U+884c, U+8853, U+8868, U+8981, U+898b, U+89a7, U+89d2, U+8a0e, U+8a3a, U+8a71, U+8a73, U+8a8d, U+8aac, U+8abf, U+8ac7, U+8ca0, U+8cbb, U+8cea, U+8d64, U+8de1, U+8efd, U+8f2a, U+8fbc, U+8fce, U+8ffd, U+901a, U+9023, U+9031, U+904e, U+9060, U+9065, U+9069, U+9078, U+90e8, U+90fd, U+9154, U+91d1, U+91dd, U+9577, U+958b, U+9593, U+964d, U+9650, U+9662, U+9664, U+967a, U+96fb, U+97ff, U+984c, U+9854, U+99c5, U+9ebb, U+9ed2, U+ff08-ff09, U+ff0b, U+ff0f, U+ff1a, U+ff1f;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/cormorant-garamond-italic.woff2) format('woff2');
+  unicode-range: U+21-7e;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/cormorant-garamond.woff2) format('woff2');
+  unicode-range: U+21-7e;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/cormorant-garamond.woff2) format('woff2');
+  unicode-range: U+21-7e;
+}

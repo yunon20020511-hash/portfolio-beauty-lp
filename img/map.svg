@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" width="640" height="440" font-family="'Noto Sans JP', sans-serif">
+  <rect width="640" height="440" fill="#f4ede6"/>
+  <g fill="#e9dfd6">
+    <rect x="30" y="30" width="170" height="110" rx="6"/><rect x="250" y="30" width="140" height="110" rx="6"/><rect x="440" y="30" width="170" height="110" rx="6"/>
+    <rect x="30" y="200" width="170" height="90" rx="6"/><rect x="440" y="200" width="170" height="90" rx="6"/>
+    <rect x="30" y="350" width="170" height="70" rx="6"/><rect x="440" y="350" width="170" height="70" rx="6"/>
+  </g>
+  <rect x="0" y="160" width="640" height="24" fill="#fff"/>
+  <rect x="0" y="310" width="640" height="24" fill="#fff"/>
+  <rect x="216" y="0" width="28" height="440" fill="#fff"/>
+  <rect x="404" y="0" width="24" height="440" fill="#fff"/>
+  <text x="230" y="236" fill="#665853" font-size="13" transform="rotate(90 230 236)">大通り</text>
+  <rect x="250" y="360" width="140" height="56" rx="6" fill="#665853"/>
+  <text x="320" y="394" fill="#fff" font-size="15" text-anchor="middle">みなと駅</text>
+  <text x="320" y="352" fill="#665853" font-size="12" text-anchor="middle">東口</text>
+  <path d="M320 340V200" stroke="#8a524d" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+  <rect x="250" y="200" width="140" height="90" rx="6" fill="#f6e6e0" stroke="#8a524d" stroke-width="2"/>
+  <path d="M320 120c-18 0-30 13-30 29 0 22 30 47 30 47s30-25 30-47c0-16-12-29-30-29z" fill="#8a524d"/>
+  <circle cx="320" cy="149" r="10" fill="#fff"/>
+  <text x="320" y="240" fill="#6f3f3b" font-size="15" font-weight="700" text-anchor="middle">ソラネビル 3F</text>
+  <text x="320" y="264" fill="#6f3f3b" font-size="12" text-anchor="middle">Sorane Skin Clinic</text>
+  <text x="620" y="430" fill="#665853" font-size="11" text-anchor="end">※ダミー地図</text>
+</svg>
